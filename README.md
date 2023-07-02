@@ -6,6 +6,10 @@ React Developer Portfolio With Random Quote API, Simple Design With Social Media
 
 <img src="https://rakarmp.github.io/Mycloud/screencapture-localhost-5173-2023-07-02-07_00_02.png" alt="Preview"/>
 
+### Speed page test
+
+<img src="https://rakarmp.github.io/Mycloud/screenshot6.jpg"/>
+
 ### Feature
 
 <ul>
