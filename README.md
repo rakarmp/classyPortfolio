@@ -8,32 +8,34 @@ React Developer Portfolio With Random Quote API, Simple Design With Social Media
 
 ### Feature
 
-:loop: Navigation Bar
-:loop: Introduction Yourself With Animated Typing
-:loop: Work & Experiences
-:loop: Award & Archievements
-:loop: Technical Skills
-:loop: Image With Quote
-:loop: Social Link
+<ul>
+  <li>:loop: Navigation Bar</li>
+  <li>:loop: Introduction Yourself With Animated Typing</li>
+  <li>:loop: Work & Experiences</li>
+  <li>:loop: Award & Archievements</li>
+  <li>:loop: Technical Skills</li>
+  <li>:loop: Image With Quote</li>
+  <li>:loop: Social Link</li>
+</ul>
 
 ### Structure
 
-src
-├── assets
-│   └── react.svg
-├── components
-│   ├── Archievements.jsx
-│   ├── Experience.jsx
-│   ├── Footer.jsx
-│   ├── Intro.jsx
-│   ├── Navigation.jsx
-│   ├── Quote.jsx
-│   └── Skills.jsx
-├── App.jsx
-├── custom.min.css
-├── font-awesome.min.css
-├── kube.min.css
-└── main.jsx
+src<br />
+├── assets<br />
+│   └── react.svg<br />
+├── components<br />
+│   ├── Archievements.jsx<br />
+│   ├── Experience.jsx<br />
+│   ├── Footer.jsx<br />
+│   ├── Intro.jsx<br />
+│   ├── Navigation.jsx<br />
+│   ├── Quote.jsx<br />
+│   └── Skills.jsx<br />
+├── App.jsx<br />
+├── custom.min.css<br />
+├── font-awesome.min.css<br />
+├── kube.min.css<br />
+└── main.jsx<br />
 
 ### Installation
 
