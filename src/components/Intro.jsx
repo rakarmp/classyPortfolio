@@ -1,24 +1,22 @@
 import React from "react";
+import Typed from "typed.js";
 
 function Intro() {
-  function newTyped() {}
-  $(function () {
-    $("#typed").typed({
-      // Change to edit type effect
-      strings: ["home any pnalet", "in your galaxy", "everywhere"],
+  const el = React.useRef(null);
 
-      typeSpeed: 90,
+  React.useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ["home any planet", "in your galaxy", "everywhere"],
+      typeSpeed: 120,
       backDelay: 700,
-      contentType: "html",
-      loop: !0,
-      resetCallback: function () {
-        newTyped();
-      },
-    }),
-      $(".reset").click(function () {
-        $("#typed").typed("reset");
-      });
-  });
+      loop: true,
+    });
+
+    return () => {
+      typed.destroy();
+    };
+  }, []);
+
   return (
     <div className="intro section" id="about">
       <div className="container">
@@ -31,7 +29,7 @@ function Intro() {
             <h1>
               I live in
               <br />
-              <span id="typed"></span>
+              <span ref={el}></span>
             </h1>
           </div>
           <p>
